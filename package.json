@@ -1,0 +1,28 @@
+{
+  "name": "noc-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "dev": "tsnd --respawn --clear src/app.ts",
+   "build": "rimraf ./dist && tsc",
+   "start": "npm run build && node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanuel7benitez/NocApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emanuel7benitez/NocApp/issues"
+  },
+  "homepage": "https://github.com/emanuel7benitez/NocApp#readme",
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "rimraf": "^6.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
