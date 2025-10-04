@@ -1,3 +1,9 @@
-const name: string = 'emmanuel!!!';
+import { Server } from "./presentation/server.js"
 
-console.log(name);
+(()=>{
+    main()
+})()
+
+function main(){
+    Server.start()
+}
